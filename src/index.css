@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+    @apply mr-3 text-sm text-gray-600
+    
+}
+
+.profile {
+    position: absolute;
+    right:0
+}
+
+.hero {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subImges img {
+    @apply h-16 w-auto rounded-lg m-2
+}
+
+.company {
+    font-size: x-small;
+    font-family: 'Kumbh Sans';
+}
+
+.cta {
+    /* color: #EC8305 */
+}
+
+.plusBtn, .minusBtn {
+    color: #EB5B00
+}
+
+.ctaBtn {
+    background-color: #EB5B00;
+}
